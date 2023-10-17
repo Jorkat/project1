@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="favicon.ico" />
+    <title>Contact - Joris TM</title>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="cv.html">CURRICULUM VITAE</a></li>
+            <li><a href="ervaring.html">ERVARINGEN</a></li>
+            <li><a href="interesse.html">HOBBY'S &amp; INTERESSES</a></li>
+            <li class="active"><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <div id="wrapper">
+    <!-- ervaring -->
+    <h1>Contact</h1>
+
+    <div class="contact">
+        <p>Contacteer mij op één van de onderstaande manieren hieronder of via het contactformulier.</p>
+        <i class="fa fa-phone p10"></i><a href="tel:0468322837">0468322837</a><br>
+        <i class="fa fa-envelope p10"></i><a href="mailto:r0989530@student.thomasmore.be">r0989530@student.thomasmore.be</a><br>
+        <i class="fa fa-linkedin-square p10"></i><a href="//www.linkedin.com/in/joris-gijbels" target="_blank">Joris Gijbels</a>
+
+        <div class="formulier">
+        <form method="post" action="https://tm-statweb.be/sendmail.php">
+            <label for="naam">Naam:</label><br>
+            <input type="text" id="naam" name="naam" class="single" required/><br>
+
+            <label for="email">E-mailadres:</label><br>
+            <input type="email" id="email" name="email" class="single" required/><br>
+
+            <label for="onderwerp">Onderwerp:</label><br>
+            <input type="onderwerp" id="onderwerp" name="onderwerp" class="single" required/><br>
+
+            <label for="bericht">Bericht:</label><br>
+            <textarea id="bericht" name="bericht" rows="5" cols="40" class="bericht"></textarea><br>
+
+            <input type="hidden" name="studentemail" value="r0989530@student.thomasmore.be">
+
+            <input type="submit" value="Verzenden" class="stuur" />
+
+
+        </form>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>
